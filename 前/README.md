@@ -1,5 +1,5 @@
  # 联想商城前端部分
- 前端采用 [vue](https://cn.vuejs.org/) ，使用 [webpack](https://www.webpackjs.com/) 打包，
+ 前端采用 [vue](https://cn.vuejs.org/) ，使用了一个现代化开源UI库-[View UI](https://www.iviewui.com/docs/introduce),最后使用 [webpack](https://www.webpackjs.com/) 打包，
 
  后端用 Go 编写，使用了 [Gin 框架](https://github.com/gin-gonic/gin)
 
