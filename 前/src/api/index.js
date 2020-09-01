@@ -47,4 +47,7 @@ export const addAddress = (params) => {
 export const delAddress = (params) => {
   return http.fetchGet(`${baseUrl}deladdress`, params)
 }
-
+//export const 函数名 =(params)=>{
+//  return http.请求方式(`${baseUrl}请求地址`,params)
+// }
+// 使用方法为  函数名({参数名：参数值}).then(res=>{处理返回的信息res})

@@ -60,43 +60,7 @@ import {getCart,delCart,setCartNum} from '../api/goods';
 export default {
   data() {
     return {
-      cartlist: [
-        {
-          cid: 11,
-          uid: 1,
-          pid: 3,
-          pname: "拯救者 Y7000P 2019 英特尔酷睿i5 15.6英寸专业电竞本",
-          peizhi:
-            "i5-9300H/Windows 10 家庭中文版/15.6英寸/8G/1T SSD/ GeForce RTX™ 1660Ti 6G独显/黑色",
-          linkid: 2,
-          count: 2,
-          aprice: 7899,
-          creatime: "2019-12-21 15:09:32"
-        },
-        {
-          cid: 12,
-          uid: 1,
-          pid: 2,
-          pname: "拯救者 Y7000P 2019 英特尔酷睿i7 15.6英寸专业电竞本",
-          peizhi:
-            "i7-9750H/Windows 10 家庭中文版/15.6英寸/16G/1T SSD/ GeForce RTX™ 2060 6G独显/红色",
-          linkid: 2,
-          count: 1,
-          aprice: 9898,
-          creatime: "2019-12-21 15:11:58"
-        },
-        {
-          cid: 13,
-          uid: 1,
-          pid: 1,
-          pname: "小新Pro13.3英寸英特尔酷睿全面屏超轻薄笔记本电脑",
-          peizhi: "I5-10210U 16G 512G MX250 2.5K QHD 银",
-          linkid: 1,
-          count: 1,
-          aprice: 6699,
-          creatime: "2019-12-21 15:12:01"
-        }
-      ],
+      cartlist: [ ],
       chosenid:[],
       empty:''
     };

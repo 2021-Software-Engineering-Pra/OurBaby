@@ -2,7 +2,8 @@
  前端采用 [vue](https://cn.vuejs.org/) ，使用 [webpack](https://www.webpackjs.com/) 打包
 
  后端用 Go 编写，使用了 [Gin 框架](https://github.com/gin-gonic/gin)
-
+## 说明
+  go mod download 下载依赖包
 ## 注意
 测试前请先配置数据库相关
    
