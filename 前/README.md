@@ -4,7 +4,7 @@
  后端用 Go 编写，使用了 [Gin 框架](https://github.com/gin-gonic/gin)
 
  感谢以上开源框架的作者
-## 介绍
+## 说明
 * package.json(依赖包以及运行脚本)
 * webpack.config.js(webpack打包信息)
 * index.html(用于dev-server预览)
@@ -17,10 +17,10 @@
   |-img(图片文件夹)<br>
   |-js(javascript文件夹)<br>
   |-page(页面，.vue文件)<br>
-  |-router(路由，页面需在此处注册)
-  |-static(商品图片文件夹，以pid命名)
-  |-app.vue(vue渲染页面)
-  |-index.js(创建vue实体)
+  |-router(路由，页面需在此处注册)<br>
+  |-static(商品图片文件夹，以pid命名)<br>
+  |-app.vue(vue渲染页面)<br>
+  |-index.js(创建vue实体)<br>
   |index.html(主页面显示)
  ## 使用方法
  1. 安装node
