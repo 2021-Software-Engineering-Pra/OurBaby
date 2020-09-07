@@ -1,16 +1,16 @@
 # API
 功能描述|方法|地址|参数|参数说明|返回数据结构
 -|-|-|-|-|-|
-查询所有用户|GET|getalluser|-|-|-|-|{status:0/1,msg:"",data\[{user},{user}]
-用户删除|POST|deluser|uid|用户id|-|-|{status:0/1,msg:""}
-查询所有订单|GET|getallorder|-|-|-|-|{status:0/1,msg:"",data\[{order},{order}]
-订单更新|POST|updateorder|status/recvname/phone/detail/orid|订单状态/收货人姓名/手机号/详细地址/订单号|-|-|{status:0/1,msg:""}
-获取所有商品|GET|getallproduct|-|-|-|-|{status:0/1,msg:"",data\[{product},{product}]
-商品增加|POST|addproduct|pname/pdesp/peizhi/price/kucun/type/kind/pid|商品名称/商品描述/商品配置/价格/库存/系列/种类，可选{light,game,Thinkpad}/商品pid|-|-|{status:0/1,msg:""}
-商品增加（图片）|POST|addproduct|main/big/intro/pid|主图/大图/详情图/商品的pid|-|-|{status:0/1,msg:""}
-商品更新|POST|updateproduct|pname/pdesp/peizhi/price/kucun/type/kind/pid|商品名称/商品描述/商品配置/价格/库存/系列/种类，可选{light,game,Thinkpad}/商品pid|-|-|{status:0/1,msg:""}
-商品更新（图片）|POST|updateproduct|main/big/intro/pid|主图/大图/详情图/商品的pid|-|-|{status:0/1,msg:""}
-商品删除|POST|delproduct|pid|商品id|-|-|{status:0/1,msg:""}
+查询所有用户|GET|getalluser|-|-|{status:0/1,msg:"",data\[{user},{user}]
+用户删除|POST|deluser|uid|用户id|{status:0/1,msg:""}
+查询所有订单|GET|getallorder|-|-|{status:0/1,msg:"",data\[{order},{order}]
+订单更新|POST|updateorder|status/recvname/phone/detail/orid|订单状态/收货人姓名/手机号/详细地址/订单号|{status:0/1,msg:""}
+获取所有商品|GET|getallproduct|-|-|{status:0/1,msg:"",data\[{product},{product}]
+商品增加|POST|addproduct|pname/pdesp/peizhi/price/kucun/type/kind/pid|商品名称/商品描述/商品配置/价格/库存/系列/种类，可选{light,game,Thinkpad}/商品pid|{status:0/1,msg:""}
+商品增加（图片）|POST|addproduct|main/big/intro/pid|主图/大图/详情图/商品的pid|{status:0/1,msg:""}
+商品更新|POST|updateproduct|pname/pdesp/peizhi/price/kucun/type/kind/pid|商品名称/商品描述/商品配置/价格/库存/系列/种类，可选{light,game,Thinkpad}/商品pid|{status:0/1,msg:""}
+商品更新（图片）|POST|updateproduct|main/big/intro/pid|主图/大图/详情图/商品的pid|{status:0/1,msg:""}
+商品删除|POST|delproduct|pid|商品id|{status:0/1,msg:""}
 
 ## 实体类及其成员变量
 user成员变量|说明|类型
