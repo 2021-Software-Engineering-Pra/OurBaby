@@ -1,7 +1,6 @@
 # API
 功能描述|方法|地址|参数|参数说明|返回数据结构
 -|-|-|-|-|-|
-功能描述|方法|地址|参数|参数说明|发起页面|备注|返回数据结构
 查询所有用户|GET|getalluser|-|-|-|-|{status:0/1,msg:"",data\[{user},{user}]
 用户删除|POST|deluser|uid|用户id|-|-|{status:0/1,msg:""}
 查询所有订单|GET|getallorder|-|-|-|-|{status:0/1,msg:"",data\[{order},{order}]
