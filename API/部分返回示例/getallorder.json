@@ -1,0 +1,81 @@
+{
+	"status": 1,
+	"msg": "ok",
+	"data": [
+		{
+			"pid": "1",
+			"pname": "小新Pro13.3英寸英特尔酷睿全面屏超轻薄笔记本电脑",
+			"pdesp": "全新10代i5，“真”全面屏",
+			"peizhi": "I5-10210U 16G 512G MX250 2.5K QHD 银",
+			"kucun": 3402,
+			"price": 6699,
+			"type": "小新Pro",
+			"kind": "light",
+			"sellcount": 0,
+			"status": 1,
+			"linkid": 1,
+			"creatime": "2019-11-27 21:29:57",
+			"updatime": "2020-01-05 21:19:28"
+		},
+		{
+			"pid": "2",
+			"pname": "拯救者 Y7000P 2019 英特尔酷睿i7 15.6英寸专业电竞本",
+			"pdesp": "为战而生，全新拯救者助你一臂之力",
+			"peizhi": "i7-9750H/Windows 10 家庭中文版/15.6英寸/16G/1T SSD/ GeForce RTX™ 2060 6G独显/红色",
+			"kucun": 3995,
+			"price": 9898,
+			"type": "拯救者Y7000P",
+			"kind": "game",
+			"sellcount": 0,
+			"status": 1,
+			"linkid": 2,
+			"creatime": "2019-12-11 20:42:12",
+			"updatime": "2020-09-01 10:38:07"
+		},
+		{
+			"pid": "3",
+			"pname": "拯救者 Y7000P 2019 英特尔酷睿i5 15.6英寸专业电竞本",
+			"pdesp": "为战而生，全新拯救者助你一臂之力",
+			"peizhi": "i5-9300H/Windows 10 家庭中文版/15.6英寸/8G/1T SSD/ GeForce RTX™ 1660Ti 6G独显/黑色",
+			"kucun": 3986,
+			"price": 7899,
+			"type": "拯救者Y7000P",
+			"kind": "game",
+			"sellcount": 0,
+			"status": 1,
+			"linkid": 2,
+			"creatime": "2019-12-11 20:46:58",
+			"updatime": "2020-01-05 21:14:45"
+		},
+		{
+			"pid": "4",
+			"pname": "ThinkPad X1 Carbon 2019 英特尔酷睿 笔记本电脑 20QD002BCD",
+			"pdesp": "超轻薄精英商务本",
+			"peizhi": "i7-8565U/Windows 10家庭中文版/8GB/512GB SSD/UHD 620显示芯片/14英寸WQHD IPS LED背光显示屏",
+			"kucun": 3983,
+			"price": 12499,
+			"type": "ThinkPad X1 Carbon",
+			"kind": "ThinkPad",
+			"sellcount": 0,
+			"status": 1,
+			"linkid": 3,
+			"creatime": "2019-12-11 20:50:31",
+			"updatime": "2020-01-05 12:20:00"
+		},
+		{
+			"pid": "5",
+			"pname": "ThinkPad X1 Carbon 2019 英特尔酷睿 笔记本电脑 20QD0020CD",
+			"pdesp": "超轻薄精英商务本",
+			"peizhi": "i5-8265U/Windows 10家庭中文版/8GB/512GB SSD/UHD 620显示芯片/14英寸WQHD IPS LED背光显示屏",
+			"kucun": 3997,
+			"price": 9699,
+			"type": "ThinkPad X1 Carbon",
+			"kind": "ThinkPad",
+			"sellcount": 0,
+			"status": 1,
+			"linkid": 3,
+			"creatime": "2019-12-11 20:51:35",
+			"updatime": "2020-09-02 12:55:45"
+		}
+	]
+}
